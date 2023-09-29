@@ -6,6 +6,8 @@
 body {
     background-image: linear-gradient(to right, #ba9ad6, #88709d, #7015c0c7);
     font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+
 }
 
 header{
