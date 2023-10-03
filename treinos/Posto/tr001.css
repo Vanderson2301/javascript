@@ -6,5 +6,6 @@
 header{
     background-color: white;
 }
-body {
-
+body>header>div.foto{
+    background-color: black;
+}
