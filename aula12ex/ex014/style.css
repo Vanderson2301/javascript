@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+header{
+    font: normal 20px arial;
+    text-align: center;
+    margin: auto;
+
+}
+body{
+    background-color: lightgray;
+}
+section {
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+}
+div#hora{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    font: normal 20px arial;
+}
+div#imagem{
+    display: block;
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+    width: 250px;
+    height: 250px;
+}
+footer{
+    text-align: center;
+    font: italic 12px arial;
+    margin: auto;
+}
