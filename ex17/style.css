@@ -18,6 +18,10 @@ section {
     border-radius: 12px;
     box-shadow: 2px 2px 5px black;
 }
+
+div{
+    padding: 10px;
+}
 footer{
     text-align: center;
     font: italic 12px arial;
