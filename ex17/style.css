@@ -13,12 +13,14 @@ section {
     display: block;
     margin: auto;
     background-color: white;
-    width: 400px;
+    width: 600px;
     height: auto;
     border-radius: 12px;
     box-shadow: 2px 2px 5px black;
 }
-
+#selbox{
+    width: 200px;
+}
 div{
     padding: 10px;
 }

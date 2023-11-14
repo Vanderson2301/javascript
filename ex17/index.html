@@ -11,14 +11,14 @@
          <h1>Verificador de Números</h1>
      </header>
      <section>
-         <div>
+         <div style="text-align: center;">
             Número (1 a 100): <input type="number" name="txtnum" id="txtnum">
-            <button onclick="adicionar()">Adicionar</button>
-         </div>
-         <div>
-            <select name="box" id="selbox" size="10" style="margin: 10px;"><option value="">Digite um valor acima...</option></select>
+            <button id="button" onclick="adicionar()">Adicionar</button>
+            <br><br><select name="box" id="selbox" size="10" style="margin: 10px;"></select>
             <br>
-            <button>Verificar</button>
+            <button onclick="finalizar()">Finalizar</button>
+         </div>
+         <div id="resu">
          </div>
      </section>
      <footer>
