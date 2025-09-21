@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header{
+    font: normal 20px 'calibri';
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color: lightgray;
+    font: normal 15px arial
+}
+section {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+}
+div{
+    margin: 10px
+}
+footer{
+    text-align: center;
+    font: italic 12px arial;
+    margin: auto;
+}
+#foto{
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient (to right, yellow green, white);
+    padding: 0px;
+    margin: 3px;
+    font: normal 13px arial black
+}
+div#foto> img {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+} 
+a {
+    display: inline-block;
+    margin: 1px;
+    padding: 0px 5px 0px 0px ;
+}

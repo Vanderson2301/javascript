@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas</title>
+    <style>
+        div{
+            background: lightgray;
+            width: 500px;
+            height: 100px;
+            margin: 10px 0px 0px 0px;
+            padding: 3px;
+            font: normal 15px arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    <h2>Coloque sua velocidade e consulte se você foi multado</h2>
+    <input type="number" name="textvel" id="textvel"> Km/h
+    <input type="button" value="verificar" onclick="clicar()">
+    <div id="area">Será que serei multado?</div>
+    
+    <script>
+        
+        function clicar(){
+            tv1 = document.getElementById('textvel')
+            a = document.getElementById('area')
+            vel = Number(tv1.value)
+            if (vel > 60) {
+                a.innerText = `Tu serás multado, corno. Utilize sinto de segurança, cachorro!`
+            } else {
+                a.innerText = `Parabéns, você não foi multado. Siga seu caminho e lembre-se, utilize sempre cinto de segurança.`
+            }
+        }
+
+
+    </script>
+</body>
+</html>
